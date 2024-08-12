@@ -28,19 +28,19 @@ This project demonstrates an end-to-end NLP model pipeline using Python and the 
 - `python main.py`
 
 ## File Descriptions:
-a. dataset.py: DatasetLoader class: Loads the dataset using Hugging Face datasets library
-b. preprocess_utils.py: PreprocessUtils class: Provides utility functions for text preprocessing.
-c. preprocess_data.py: DataPreprocessor class: Uses PreprocessUtils to preprocess and tokenize the dataset.
-d. main.py: This is main file.
-e. model.py: ModelLoader class: Loads the model for sequence classification.
-f. evaluate.py: Performs the model evalutation
-g. train.py: Performs the Model training 
-h. requirements.txt: "pip install -r requirements.txt"
-    transformers: The main library for working with pre-trained models from Hugging Face.
-    datasets: For loading and processing datasets.
-    torch: PyTorch, a deep learning framework required for the models.
-    tokenizers: Fast tokenization library used by Hugging Face transformers.
-    numpy: For numerical operations.
-    pandas: For data manipulation and analysis.
-    scikit-learn: For additional machine learning utilities.
+- dataset.py: DatasetLoader class: Loads the dataset using Hugging Face datasets library
+- preprocess_utils.py: PreprocessUtils class: Provides utility functions for text preprocessing.
+- preprocess_data.py: DataPreprocessor class: Uses PreprocessUtils to preprocess and tokenize the dataset.
+- main.py: This is main file.
+- model.py: ModelLoader class: Loads the model for sequence classification.
+- evaluate.py: Performs the model evalutation
+- train.py: Performs the Model training 
+- requirements.txt: "pip install -r requirements.txt"
+    - transformers: The main library for working with pre-trained models from Hugging Face.
+    - datasets: For loading and processing datasets.
+    - torch: PyTorch, a deep learning framework required for the models.
+    - tokenizers: Fast tokenization library used by Hugging Face transformers.
+    - numpy: For numerical operations.
+    - pandas: For data manipulation and analysis.
+    - scikit-learn: For additional machine learning utilities.
 
