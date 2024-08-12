@@ -1,0 +1,9 @@
+transformers==4.28.1
+datasets==2.4.0
+tokenizers==0.11.6
+scikit-learn
+nltk
+spacy
+PyTorch
+TensorFlow
+Flax
