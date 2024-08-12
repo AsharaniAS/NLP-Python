@@ -16,15 +16,16 @@ This project demonstrates an end-to-end NLP model pipeline using Python and the 
 
 ## Setup Instructions
 
-1.Create a Virtual Environment
-python -m venv venv
-source venv/bin/activate  # On Windows use `venv\Scripts\activate`
+1.Create a Virtual Environment:
+- `python -m venv venv`
+- `source venv/bin/activate`
+- On Windows use: `venv\Scripts\activate`
 
-2.Install Dependencies
-pip install -r requirements.txt
+2.Install Dependencies:
+- `pip install -r requirements.txt`
 
-3.Running project
-python main.py
+3.Running project:
+- `python main.py`
 
 ## File Descriptions:
 a. dataset.py: DatasetLoader class: Loads the dataset using Hugging Face datasets library
